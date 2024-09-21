@@ -1459,6 +1459,7 @@ Prompt: {{prompt:middletruncate:8000}}"""
         ),
         "chat_id": form_data.get("chat_id", None),
         "metadata": {"task": str(TASKS.TITLE_GENERATION)},
+        "title": True,
     }
     log.debug(payload)
 
